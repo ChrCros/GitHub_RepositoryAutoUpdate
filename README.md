@@ -24,3 +24,9 @@ git commit -m "first commit"
 git branch -M main
 git push -u origin main
 ```
+> *Nota*: Usa **git pull** per aggiornare un repository locale tramite il repository remoto corrispondente. 
+Es: mentre lavori localmente su main, esegui **git pull** per aggiornare la copia locale di main e aggiornare gli altri branch di tracciamento remoto. 
+```sh
+git pull
+```
+>  
